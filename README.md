@@ -140,13 +140,13 @@ List the ConfigMaps:
 ```bash
 kubectl get configmap
 ```
-! [configMap](https://github.com/cloudybdone/ConfigMap-In-K8s/blob/main/configmap0001.png)
+![configMap](https://github.com/cloudybdone/ConfigMap-In-K8s/blob/main/configmap0001.png)
 To inspect the details:
 
 ```bash
 kubectl describe configmap db-config
 ```
-! [ocnfigMap02](https://github.com/cloudybdone/ConfigMap-In-K8s/blob/main/configMap0002.png)
+![ocnfigMap02](https://github.com/cloudybdone/ConfigMap-In-K8s/blob/main/configMap0002.png)
 The `describe` command allows us to inspect the configuration data stored inside the ConfigMap.
 
 ---
